@@ -1,0 +1,27 @@
+html{
+    height: 100%;
+}
+body{
+    width: 100%;
+    background-image: linear-gradient(orange , rgb(206, 64, 87) , purple);
+    
+}
+.title{
+    text-align: center;
+    color: white;
+
+}
+.Button{
+    color: white;
+    background-color: rgb(55, 55, 200);
+    border-radius: 10px;
+    border-color: rgba(34, 34, 209, 0.856);
+    height: 70px;
+    width: 250px;
+    font-size: 30px;
+    font-family: Archivo Narrow;
+    margin-top: 160px;
+}
+.show2{
+    display:none;
+}
