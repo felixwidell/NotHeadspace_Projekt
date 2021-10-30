@@ -4,32 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel=stylesheet  href=index.css>
+    <link rel=stylesheet  href="../Css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Document</title>
 </head>
 <body>
 
+ <!-- <div class="container w-100">  -->
+  <nav class="navbar navbar-expand-sm sticky-top ">
+   
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="file:///Users/felix.widell/Desktop/NotHeadspace_Projekt/Html/index.html"> <img src="../Bilder/Logo5.png" alt="Logo" id="logo"></a>
+      </li>
+          <li class="nav-item nav-text">
+        <a class="nav-link" href="#">Account</a>
+      </li>
+      <li class="nav-item nav-text">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item nav-text">
+        <a class="nav-link" href="#">Emotions</a>
+      </li>
+      <li class="nav-item nav-text">
+        <a class="nav-link" href="#">Meditation</a>
+      </li>
+      <li class="nav-item nav-text nav-login">
+        <a class="nav-link" href="#">Login</a>
+      </li>
+      </ul>
+    
+    </ul>
 
+   </nav>
+ <!-- </div> -->
+  
     <div style="text-align:center;" id="step1">
         <p style="font-size: 80px; font-family:Archivo Narrow;" class="title" >Welcome<br>To<br>Oasis</p>
         <input type="submit" value="What's Oasis?" onclick="showhide()" class="Button"> 
     </div>
-    <div style="text-align:center;" id="step2">
-        <p style="font-size: 40px; font-family:Archivo Narrow;" class="show2" id="step2">What's Oasis</p>
-        <div class="textborder"></div>
-
+    
+    
+    <div style="text-align:center;" id="step2" class="show2">
+        <p style="font-family:Archivo Narrow;" class="title2">What's Oasis</p>
+        <div class="textborder"><p style="font-family:Archivo Narrow;" class="textwall">Oasis is a method which uses the research within psychology, sociology and neuroscience in order to give you tools to help you overcome everyday problems, as well as during more challenging times. 
+            This method takes a holistic perspective on health and will guide you through different techniques to increase your wellbeing. These techniques are divided into 4 different areas, thoughts, feelings, relationships, and spiritual exploration. You can choose to do just one, or all of them at once. In either case, we welcome you and hope you’ll find much use for this app.<br> Welcome!</p></div>
+        <input type="image" src="../Bilder/ARROW1.png" alt="arrow" onclick="showhide2()" class="arrow"> 
+    </div>
+    
+    
+    <div style="text-align:center;" id="step3" class="show3">
+        <p style="font-family:Archivo Narrow;" class="title2">Meditation</p>  
+        <input type="submit" value="Day 1" class="ButtonMed"><br>
+        <input type="submit" value="Day 2" class="ButtonMed"><br>
+        <input type="submit" value="Day 3" class="ButtonMed"><br>
+        <input type="submit" value="Day 4" class="ButtonMed"><br>
+        <input type="submit" value="Day 5" class="ButtonMed">     
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <script src="../JavaScript/index.js"></script>
 
     
 </body>
