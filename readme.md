@@ -10,3 +10,5 @@ Infoga text här Infoga text här Infoga text här Infoga text här Infoga text 
 Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här.
 Infoga text här 
 Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här Infoga text här.
+
+![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
